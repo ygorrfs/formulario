@@ -1,106 +1,74 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8" />
-        <title>Formulário</title>
-        <link rel="stylesheet" href="formulario.css">
-    </head>
-    <body>
-            <pre><h1>Seja-Bem-Vindo.net     <a href="formulário.html" title="Área de Clientes" >Área de clientes</a></h1></pre>
-            <br>
-        <h2>Faça seu cadastro</h2>
-        <table>
-            <tr>
-                <th>
-                    <form>
-                        <label>
-                            
-                                Nome completo: <br>
-                                <input placeholder="Nome Completo" type="text" name="nome">
-                            
-                        </label>
-                        </textarea>
-                    </form>
-                </th>
-                <th>
-                    <form>
-                        <label>
-                            Endereço: <br>
-                            <input type="text" name="nome">
-                        </label>
-                    </form>
-                </th>
-            </tr>
-            <tr>
-                <th>
-                    <form>
-                        <label>
-                            CPF: <br>
-                            <input type="text" name="nome">
-                        </label>
-                    </form>
-                </th>
-                <th>
-                    <form>
-                        <label>
-                            Bairro: <br>
-                            <input type="text" name="nome">
-                        </label>
-                    </form>
-                </th>
-            </tr>
-            <tr>
-                <th>
-                    <form>
-                        <label>
-                            RG: <br>
-                            <input type="text" name="nome">
-                        </label>
-                    </form>
-                </th>
-                <th>
-                    <form>
-                        <label>
-                            Cidade: <br>
-                            <input type="text" name="nome">
-                        </label>
-                    </form>
-                </th>
-            </tr>
-            <tr>
-                <th>
-                    <form>
-                        <label>
-                            Email: <br>
-                            <input type="email" name="email">
-                        </label>
-                    </form>
-                </th>
-                <th>
-                    <form>
-                        <label>
-                            Estado: <br>
-                            <input type="text" name="nome">
-                        </label>
-                    </form>
-                </th>
-            </tr>
-        </table>
-         
-         <h2>Área de login</h2>
-         <form>
-            <label>
-                Email: <br>
-                <input type="email" name="email">
-            </label>
-            <br><br>
-            <label>
-                Senha: <br>
-                <input type="password" name="password">
-            </label>
-            <button>Fazer Login</button>
-         </form>
-        
-    </body>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Formulário</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+
+<body>
+    <pre><h1>Seja-Bem-Vindo.net     <a href="formulário.html" title="Área de Clientes" >Área de clientes</a></h1></pre>
+
+    <h2>Faça seu cadastro</h2>
+    <div class="container">
+        <div class="caixa">
+            <div class="group-1">
+                <div class="input-group">
+                    <label for="nome">Nome completo:</label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+                <div class="input-group">
+                    <label for="endereco">Endereço:</label>
+                    <input type="text" name="nome" id="endereco">
+                </div>
+            </div>
+            <div class="group-2">
+                <div class="input-group">
+                    <label for="cpf">CPF:</label>
+                    <input type="text" name="cpf" id="cpf">
+                </div>
+                <div class="input-group">
+                    <label for="bairro">Bairro:</label>
+                    <input type="text" name="bairro" id="bairro">
+                </div>
+            </div>
+            <div class="group-3">
+                <div class="input-group">
+                    <label for="rg">RG:</label>
+                    <input type="text" name="rg" id="rg">
+                </div>
+                <div class="input-group">
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" name="cidade" id="cidade">
+                </div>
+            </div>
+            <div class="group-4">
+                <div class="input-group">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="input-group">
+                    <label for="estado">Estado:</label>
+                    <input type="text" name="estado" id="estado">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--   <h2>Área de login</h2>
+    <form>
+        <label>
+            Email:
+            <input type="email" name="email">
+        </label>
+
+        <label>
+            Senha:
+            <input type="password" name="password">
+        </label>
+        <button>Fazer Login</button>
+    </form> -->
+
+</body>
 
 </html>
